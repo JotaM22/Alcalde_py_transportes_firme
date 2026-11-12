@@ -1,0 +1,356 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{estilos}
+\usepackage{tablas}
+\usepackage{estructura}
+\usepackage{amsmath}
+\usepackage{needspace}
+
+\newcommand{\anioTesis}{2026}
+\newcommand{\tituloTesis}{Relación entre el espesor del afirmado y el deterioro superficial del camino vecinal Limabamba-Challhuayacu, Amazonas, \anioTesis}
+\newcommand{\programaTesis}{Transportes y Conservación Vial}
+\newcommand{\lineaTesis}{Ingeniería de Transportes}
+\newcommand{\sublineaTesis}{Transportes}
+\newcommand{\asesorTesis}{Burgos Sarmiento, Tito Alfredo}
+
+\urldef\manualConservacionURL\url{https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/MTC%20NORMAS/ARCH_PDF/MAN_9%20MCV-2014_2016.pdf}
+\urldef\manualPavimentosURL\url{https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/MTC%20NORMAS/ARCH_PDF/MAN_7%20SGGP-2014.pdf}
+\begin{document}
+\begin{titlepage}
+\begingroup\setstretch{1.0}\setlength{\parskip}{0pt}\centering
+{\large\bfseries UNIVERSIDAD PRIVADA ANTENOR ORREGO\par}
+\vspace{.6cm}{\large\bfseries ESCUELA DE POSGRADO\par}
+\vspace{.45cm}\includegraphics[height=4.7cm]{figuras/escudo.jpeg}\par\vspace{.6cm}
+\gradoPortada{PROYECTO DE TESIS PARA OBTENER EL GRADO DE MAESTRO EN TRANSPORTES Y CONSERVACIÓN VIAL}
+\bloqueTituloPortada{\tituloTesis}
+\begin{flushleft}
+\hspace*{1cm}\textbf{Línea de investigación:} \lineaTesis\\[5pt]
+\strut\\
+\hspace*{1cm}\textbf{Sublínea de investigación:} \sublineaTesis\\[14pt]
+\hspace*{1cm}\textbf{Autor:}\\[23pt]
+\hspace*{1cm}\textbf{Asesor:} \asesorTesis\\[12pt]
+\hspace*{1cm}\textbf{Código ORCID:}
+\end{flushleft}
+\vspace{1.1cm}\textbf{TRUJILLO - PERÚ}\\[3pt]\textbf{\anioTesis}\par
+\endgroup
+\end{titlepage}
+
+\setcounter{page}{2}
+\encabezadoGeneralidades
+\begingroup\setlength{\parskip}{4pt}
+\itemGeneral{1.}{Título}
+\tituloTesis.
+\itemGeneral{2.}{Equipo investigador}
+\subitemGeneral{2.1.}{Autor(a):}
+\subitemGeneral{2.2.}{Asesor: \normalfont\asesorTesis}
+\itemGeneral{3.}{Tipo de investigación}
+Investigación aplicada, de enfoque cuantitativo, alcance correlacional y diseño no experimental, transversal y retrospectivo.
+\itemGeneral{4.}{Área y línea de investigación}
+\subitemGeneral{4.1.}{Línea: \normalfont\lineaTesis}
+\subitemGeneral{4.2.}{Sublínea: \normalfont\sublineaTesis}
+\itemGeneral{5.}{Unidad académica}
+Maestría en \programaTesis, Escuela de Posgrado de la Universidad Privada Antenor Orrego.
+\itemGeneral{6.}{Institución y localidad}
+Escuela de Posgrado de la Universidad Privada Antenor Orrego, sede Trujillo. El tramo estudiado se ubica entre los desvíos de Limabamba y Challhuayacu de la ruta AM-676, distrito de Limabamba, provincia de Rodríguez de Mendoza, Amazonas.
+\itemGeneral{7.}{Duración del proyecto}
+El trabajo académico se programa del 1 de julio al 30 de noviembre de \anioTesis. El estudio se basa en los registros del diagnóstico vial del tramo.
+\endgroup
+\clearpage
+
+\begin{landscape}\thispagestyle{empty}
+\begingroup\setstretch{1.0}\setlength{\parskip}{0pt}
+\rotuloTablaGeneral{8}{Cronograma de trabajo}
+\refstepcounter{table}\label{tab:cronograma}
+\tituloTabla{\thetable}{Cronograma semanal del proyecto de investigación, 2026}
+\small
+\iniciotablaHorizontal
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand{\arraystretch}{1.55}
+\noindent\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}X|*{23}{>{\centering\arraybackslash}p{0.62cm}|}}
+\hline
+\multirow{2}{*}{\textbf{Actividad}} & \multicolumn{5}{c|}{\textbf{Julio}} & \multicolumn{5}{c|}{\textbf{Agosto}} & \multicolumn{4}{c|}{\textbf{Septiembre}} & \multicolumn{4}{c|}{\textbf{Octubre}} & \multicolumn{5}{c|}{\textbf{Noviembre}}\\ \cline{2-24}
+ & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15} & \textbf{16} & \textbf{17} & \textbf{18} & \textbf{19} & \textbf{20} & \textbf{21} & \textbf{22} & \textbf{23}\\ \hline
+Revisión del proyecto y de fuentes documentales & \textbullet & \textbullet & \textbullet & \textbullet &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \\ \hline
+Preparación de fichas de extracción &  &  & \textbullet & \textbullet & \textbullet & \textbullet &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \\ \hline
+Inventario y extracción de registros viales &  &  &  &  &  & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet &  &  &  &  &  &  &  &  &  &  &  &  & \\ \hline
+Asignación de espesores y cotejo por sección &  &  &  &  &  &  &  &  & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet &  &  &  &  &  &  &  &  & \\ \hline
+Recálculo de la calificación y consolidación de la base &  &  &  &  &  &  &  &  &  &  &  & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet &  &  &  &  &  & \\ \hline
+Análisis de asociaciones e interpretación &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet &  &  & \\ \hline
+Redacción y revisión del informe &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbullet & \textbullet & \textbullet & \textbullet & \\ \hline
+Entrega y sustentación previstas &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbullet & \textbullet\\ \hline
+\end{tabularx}
+\fuenteTabla{Elaboración propia}
+\noindent Semanas del proyecto del 1 de julio al 30 de noviembre de 2026.
+\paginaHorizontalCentro
+\endgroup
+\end{landscape}
+
+\begingroup\setstretch{1.12}\setlength{\parskip}{4pt}
+\itemGeneral{9.}{Recursos}
+\begin{listaRecursos}
+\item Investigador y asesor.
+\item Expediente técnico, informe de pavimentos, inventario vial y manuales del MTC.
+\item Fichas de extracción, matriz por sección y bitácora de registro.
+\item Equipo de cómputo y programa R para el procesamiento estadístico.
+\end{listaRecursos}
+\endgroup
+
+\encabezadoPlan
+\rotuloPlan{Resumen ejecutivo del proyecto de tesis}
+En 2026 se analizará la relación entre el espesor del afirmado y el deterioro superficial del camino vecinal Limabamba-Challhuayacu, Amazonas. La investigación será aplicada, de enfoque cuantitativo, alcance correlacional y diseño no experimental, transversal y retrospectivo. El análisis documental vinculará las mediciones puntuales de espesor con el inventario de condición vial mediante sus progresivas. La unidad de análisis será la sección de 500 m y se prevé incluir las 22 secciones completas del recorrido. El espesor por sección se expresará en metros y se calculará a partir de las lecturas asignadas a ella. El deterioro se evaluará globalmente con la calificación de condición de la superficie de rodadura del Ministerio de Transportes y Comunicaciones (MTC, 2014a), cuyo valor aumenta cuando la condición mejora. Los análisis específicos examinarán la tipología, la extensión y la severidad de los daños según la escala de cada indicador. Las asociaciones observadas servirán para orientar la inspección y la conservación del camino estudiado.
+
+\tituloPlan{Problema}
+\subtituloPlan{Realidad problemática}
+La conservación de los caminos vecinales contribuye a sostener el acceso de la población rural a mercados, centros educativos y establecimientos de salud. En el Perú, el Banco Mundial (2010) documentó que las deficiencias de la red rural dificultaban esos desplazamientos, lo que sitúa la condición de la superficie de rodadura entre los aspectos que interesa examinar para programar el mantenimiento.
+
+En las vías afirmadas, la evaluación de la superficie comprende la identificación de los deterioros y la medición de su extensión y gravedad. El Ministerio de Transportes y Comunicaciones (2014a) integra estos atributos en una calificación de condición por sección, que permite comparar el estado de la rodadura a lo largo de una vía.
+
+En un estudio experimental con lluvia simulada, Valencia-Gallego y Montoya (2024) observaron que la pérdida de suelo en caminos no pavimentados varió con la pendiente, la intensidad de la lluvia y el tipo de suelo. En el ámbito peruano, Mundaca Dávila (2024) aplicó fichas del MTC en un camino vecinal de Moyobamba y registró deformaciones, erosión y baches. Ambos trabajos aportan evidencia sobre la evaluación del deterioro en condiciones de estudio diferentes.
+
+El expediente de mantenimiento del camino Limabamba-Challhuayacu permite vincular las mediciones puntuales de espesor con el inventario de daños a lo largo del recorrido. La correspondencia por progresivas permitirá examinar si las variaciones del espesor se asocian con la calificación de condición y con la tipología, la extensión y la severidad de los deterioros.
+
+\apartadoPlan{Características problemáticas}
+El camino vecinal Limabamba-Challhuayacu tiene una longitud de 11,042 km. El informe de pavimentos consigna 46 mediciones puntuales del espesor existente del afirmado, con valores entre 0,03 y 0,09 m. Las mediciones corresponden a progresivas viales identificadas, por lo que su comparación con el inventario vial requiere vincularlas con la sección de rodadura a la que pertenecen.
+
+El Inventario de Condición Vial registra ahuellamientos, erosión y baches. El análisis abarcará las 22 secciones completas de 500 m comprendidas entre las progresivas 00+000 y 11+000. Los 42 m finales corresponden al remanente del recorrido. El emparejamiento por sección permitirá examinar cómo se distribuyen los daños en relación con el espesor observado.
+
+\subtituloPlan{Enunciado del problema}
+\apartadoPlan{Problema general}
+¿Qué relación existe entre el espesor de la capa de afirmado y el deterioro superficial, evaluado mediante la calificación de condición de la superficie de rodadura, en el camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026?
+
+\Needspace{4\baselineskip}
+\apartadoPlan{Problemas específicos}
+\begin{listaTrasTitulo}
+\item ¿Qué asociación existe entre el espesor de la capa de afirmado y la tipología de los deterioros superficiales del camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026?
+\item ¿Qué relación existe entre el espesor de la capa de afirmado y la extensión de los deterioros superficiales del camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026?
+\item ¿Qué asociación existe entre el espesor de la capa de afirmado y la severidad de los deterioros superficiales del camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026?
+\end{listaTrasTitulo}
+
+\tituloPlan{Justificación}
+\subtituloPlan{Conveniencia}
+El estudio es conveniente porque reunirá las mediciones de espesor y los registros de deterioro del camino vecinal Limabamba-Challhuayacu en una misma unidad de análisis. Su vinculación por progresivas permitirá al equipo responsable de la conservación consultar cuánto afirmado se registró en cada sección y en qué condición se encontraba su superficie. La comparación aprovechará la división longitudinal que establece el Ministerio de Transportes y Comunicaciones (2014a) para evaluar las calzadas afirmadas.
+
+\subtituloPlan{Relevancia social}
+Los beneficiarios indirectos serán los pobladores y transportistas que utilizan el camino. El Banco Mundial (2010) documentó la importancia de la conectividad vial rural peruana para acceder a mercados y servicios de salud y educación. En ese contexto, el estudio aportará información sobre la ubicación y las características de los deterioros, que la entidad responsable podrá considerar al programar inspecciones y evaluar las necesidades de conservación de la vía.
+
+\subtituloPlan{Justificación teórica}
+La investigación aportará evidencia empírica sobre la relación entre el espesor existente de la capa granular y el deterioro observado en una vía afirmada. La calificación de condición integra distintos atributos del daño (Ministerio de Transportes y Comunicaciones, 2014a). Por ello, el examen de la tipología, la extensión y la severidad permitirá establecer con cuáles de esos atributos se asocia el espesor en los registros del tramo.
+
+\subtituloPlan{Justificación metodológica}
+El aporte metodológico consistirá en documentar cómo se vinculan las mediciones puntuales de espesor con los registros de deterioro por sección. La matriz conservará la progresiva de origen, la regla de asignación del espesor y las unidades de cada daño. También se verificará la calificación de condición mediante los puntajes establecidos por el Ministerio de Transportes y Comunicaciones (2014a), para conservar la trazabilidad de los valores utilizados.
+
+\subtituloPlan{Justificación práctica}
+Los resultados servirán como insumo para seleccionar secciones donde convenga revisar el espesor remanente junto con el estado superficial. El Ministerio de Transportes y Comunicaciones (2014a) vincula la calificación de condición con el tipo de conservación aplicable. El contraste entre dicha calificación y el espesor permitirá orientar verificaciones de campo, mientras que la revisión de los daños por tipo, extensión y severidad aportará detalle al diagnóstico previo a la intervención.
+
+\tituloPlan{Objetivos}
+\subtituloPlan{Objetivo general}
+Determinar la relación entre el espesor de la capa de afirmado y el deterioro superficial, evaluado mediante la calificación de condición de la superficie de rodadura, en el camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026.
+
+\subtituloPlan{Objetivos específicos}
+\begin{listaTrasTitulo}
+\item Determinar la asociación entre el espesor de la capa de afirmado y la tipología de los deterioros superficiales del camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026.
+\item Determinar la relación entre el espesor de la capa de afirmado y la extensión de los deterioros superficiales del camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026.
+\item Determinar la asociación entre el espesor de la capa de afirmado y la severidad de los deterioros superficiales del camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026.
+\end{listaTrasTitulo}
+
+
+\tituloPlan{Marco teórico}
+\subtituloPlan{Antecedentes}
+\apartadoPlan{Antecedentes nacionales}
+Callata Vilca (2024) comparó tres métodos de evaluación superficial en 3 km de la ruta PU 905, Puno. Mediante inspección visual y fichas de deterioro obtuvo promedios de 406,37 con el método MTC, 6,59 con el MOP y 63,17 con el URCI. Los tres clasificaron la condición como buena, lo que ofrece una comparación para interpretar la calificación del MTC.
+
+Mundaca Dávila (2024) evaluó la condición superficial del camino vecinal que enlaza Soritor, Habana y Calzada, en Moyobamba, mediante un diseño no experimental. Aplicó fichas del MTC y registró 115 deformaciones, 61 ocurrencias de erosión y 45 baches. El inventario ofrece un referente para comparar los tipos de deterioro registrados en Limabamba-Challhuayacu.
+
+Aguilar Julca (2023) inspeccionó 5,048 km del camino afirmado CA-838, en Cutervo. Identificó el tipo y la gravedad de las fallas mediante fichas de campo y evaluó la condición en secciones de 500 m. A partir del diagnóstico, recomendó mantenimiento rutinario. El procedimiento permite contrastar la segmentación y la clasificación de deterioros en ambas vías.
+
+Facundo Román y Flores Calderon (2023) evaluaron granulometría, plasticidad y deterioro superficial en cinco carreteras afirmadas de Jaén. La erosión presentó la mayor incidencia reportada, con 31,91 \%, seguida de la deformación, con 26,03 \%. El estudio aporta evidencia para discutir las propiedades del material granular al interpretar los daños observados.
+
+Rojas Alvarado y Valentin Guillermo (2022) evaluaron la condición del afirmado en 6,3 km del camino Cancejos-Dv. Micho, Huánuco, mediante un diseño transversal descriptivo. Reportaron un Índice Internacional de Rugosidad promedio de 7,57 y un Índice de Serviciabilidad Presente de 1,28. El estudio aporta indicadores funcionales para contextualizar la evaluación de la superficie afirmada.
+
+\apartadoPlan{Antecedentes internacionales}
+Pagadala (2024) efectuó 27 ensayos triaxiales cíclicos con tres espesores de base granular de 50, 100 y 200 mm, distintos valores de soporte de subrasante y muestras con y sin geomalla. Las muestras reforzadas alcanzaron reducciones de hasta 60 \% en la deformación plástica. El estudio aporta un referente experimental para discutir espesor y deformación.
+
+Kironde (2023) estudió 13 secciones curvas de una vía no pavimentada de Wakiso. Integró mediciones de campo, ensayos del material y el modelo HDM-4 para estimar la pérdida de grava. Reportó una pérdida media de 23,08 mm y un incremento aproximado de 2 mm por cada 10° adicionales de curvatura. El caso permite distinguir pérdida estimada y espesor existente.
+
+El Tawati y El Naggar (2022) construyeron diez secciones experimentales con dos espesores de base granular y midieron el ahuellamiento bajo tránsito controlado. Las geomallas redujeron la deformación superficial, especialmente en capas delgadas. Los autores estimaron reducciones de espesor de hasta 18 \% con refuerzo. El estudio aporta evidencia de campo sobre espesor y ahuellamiento bajo carga.
+
+Valencia-Gallego y Montoya (2024) realizaron 72 ensayos con lluvia simulada para cuantificar la pérdida de suelo en modelos de vías no pavimentadas. Variaron la pendiente, la intensidad de lluvia y el tipo de suelo. Encontraron diferencias de erosión entre pendientes de 2 \% y 7 \% en los tres suelos. El estudio permite contextualizar la erosión observada en el afirmado.
+
+Frankel y Tahmoorian (2025) caracterizaron grava de diez canteras mediante ensayos granulométricos, límites de Atterberg, CBR y ascenso capilar. Compararon las propiedades de mezclas estimadas con resultados de laboratorio y encontraron concordancia bajo las condiciones de idoneidad del material de origen. El estudio aporta criterios para discutir la calidad del afirmado junto con su espesor existente.
+
+\apartadoPlan{Síntesis de antecedentes}
+Los antecedentes nacionales aportan procedimientos para clasificar deterioros y evaluar la condición de vías afirmadas. Los estudios internacionales muestran cómo el espesor de la capa granular, las propiedades del material y las condiciones de exposición se incorporan a ensayos o modelos de desempeño. En Limabamba-Challhuayacu, el análisis vinculará el espesor existente con la calificación de condición y con la tipología, extensión y severidad registradas por sección.
+
+
+\subtituloPlan{Marco conceptual}
+\apartadoPlan{Capa de afirmado}
+Es la capa de material granular seleccionada, extendida y compactada para constituir la superficie de rodadura de una carretera no pavimentada. Su desempeño depende de propiedades del material como la granulometría y la plasticidad, así como de las condiciones de drenaje y tránsito (Frankel \& Tahmoorian, 2025; Ministerio de Transportes y Comunicaciones [MTC], 2014b).
+
+\apartadoPlan{Espesor existente del afirmado}
+Es la distancia vertical entre la superficie de rodadura y el límite inferior de la capa granular presente en el punto de inspección. En esta investigación se expresará en metros y se obtendrá de las prospecciones registradas por progresiva. Su interpretación considera la función de la capa granular dentro de la estructura vial (MTC, 2014b).
+
+\apartadoPlan{Deterioro superficial}
+Es el conjunto de alteraciones observables en la superficie de rodadura de una vía afirmada, entre ellas deformaciones, erosión, baches y encalaminado. El procedimiento del MTC caracteriza cada falla por su naturaleza, extensión y gravedad para estimar la condición de la sección inspeccionada (MTC, 2014a, numeral 4.3).
+
+\apartadoPlan{Tipología del deterioro}
+Es la clasificación de las fallas según sus características físicas. El catálogo del MTC diferencia deformación, erosión, baches, encalaminado, lodazal y cruce de agua. En el estudio se registrará la presencia de cada tipo por sección, dado que una misma unidad vial puede presentar varias fallas (MTC, 2014a, tabla 4-1).
+
+\apartadoPlan{Extensión del deterioro}
+Expresa cuánto abarca una falla dentro de la sección evaluada. Su cuantificación depende del tipo de daño. Puede expresarse mediante el área afectada o su proporción respecto de la superficie de la sección, mientras que en los baches se emplea el número de ocurrencias conforme al procedimiento del manual (MTC, 2014a, tabla 4-2).
+
+\apartadoPlan{Severidad del deterioro}
+Es el grado de afectación física de una falla. El MTC establece niveles ordinales de gravedad según criterios propios de cada deterioro, como la profundidad en las deformaciones. La severidad describe la intensidad del daño y puede variar entre ocurrencias de un mismo tipo (MTC, 2014a, tabla 4-3).
+
+\apartadoPlan{Calificación de condición de la superficie}
+Es el valor que resulta de restar a 500 la suma de los puntajes asignados a las fallas de una sección de 500 m. Los puntajes consideran el tipo, la extensión y la gravedad. Una calificación mayor representa una mejor condición de la superficie de rodadura (MTC, 2014a, tablas 4-4 a 4-6).
+
+\apartadoPlan{Relación entre espesor y deterioro}
+El espesor condiciona la respuesta de la capa granular frente a cargas repetidas. Los ensayos de campo muestran que la respuesta al ahuellamiento también depende de la configuración estructural (El Tawati \& El Naggar, 2022). En esta tesis, la relación se examinará como una asociación entre el espesor observado y la condición superficial registrada por sección.
+
+\subtituloPlan{Términos básicos}
+\apartadoPlan{Ahuellamiento}
+Depresión longitudinal en la trayectoria de las ruedas que se registra como deformación de la superficie afirmada (MTC, 2014a, tablas 4-1 y 4-3).
+
+\apartadoPlan{Bache}
+Cavidad localizada en la superficie de rodadura que se identifica por sus características físicas y se registra por ocurrencia (MTC, 2014a, tablas 4-1 y 4-2).
+
+\apartadoPlan{Erosión}
+Pérdida de material superficial asociada a la escorrentía, que puede formar surcos en la calzada afirmada (MTC, 2014a, tabla 4-1; Valencia-Gallego \& Montoya, 2024).
+
+\apartadoPlan{Encalaminado}
+Sucesión de ondulaciones transversales en la superficie de rodadura de una vía afirmada (MTC, 2014a, tabla 4-1).
+
+
+\tituloPlan{Hipótesis}
+\subtituloPlan{Hipótesis general}
+Existe una relación estadísticamente significativa entre el espesor de la capa de afirmado y el deterioro superficial, evaluado mediante la calificación de condición de la superficie de rodadura, en el camino vecinal Limabamba-Challhuayacu, Amazonas, en el análisis documental de 2026.
+
+\subtituloPlan{Hipótesis específicas}
+\begin{listaTrasTitulo}
+\item Existe asociación estadísticamente significativa entre el espesor de la capa de afirmado y la tipología de los deterioros superficiales registrados en el camino vecinal.
+\item Existe relación estadísticamente significativa entre el espesor de la capa de afirmado y la extensión de los deterioros superficiales registrados en el camino vecinal.
+\item Existe asociación estadísticamente significativa entre el espesor de la capa de afirmado y la severidad de los deterioros superficiales registrados en el camino vecinal.
+\end{listaTrasTitulo}
+
+\tituloPlan{Variables}
+\subtituloPlan{Variable I. Espesor de la capa de afirmado}
+\apartadoPlan{Definición conceptual}
+Es la distancia vertical entre la superficie de rodadura y el límite inferior de la capa granular compactada que constituye el afirmado de la vía (Ministerio de Transportes y Comunicaciones [MTC], 2014b, cap. XI).
+
+\apartadoPlan{Definición operacional}
+El espesor de la capa granular (MTC, 2014b, cap. XI) se expresará en metros. Para cada sección de 500 m se promediarán las lecturas de espesor existente del Informe de Diseño de Pavimento, asignadas por progresiva a un intervalo que incluye su inicio y excluye su final.
+
+\subtituloPlan{Variable II. Deterioro superficial de la vía}
+\apartadoPlan{Definición conceptual}
+Es la afectación física de la superficie de rodadura de una vía afirmada. Se caracteriza por la tipología de las fallas, su extensión dentro de la sección evaluada y la severidad de cada deterioro según los criterios establecidos para cada tipo (MTC, 2014a, numeral 4.3).
+
+\apartadoPlan{Definición operacional}
+Por sección de 500 m, la calificación de condición (CC) será 500 menos la suma de los puntajes de las fallas inventariadas. Una CC mayor indica mejor condición. Se registrarán además la presencia por tipo, la extensión en su unidad correspondiente y el grado de severidad (MTC, 2014a, tablas 4-1 a 4-6).
+
+
+\begin{landscape}\thispagestyle{empty}
+\begingroup\setstretch{1.0}\setlength{\parskip}{0pt}
+\subtituloPlanConTabla{Matriz de operacionalización de variables}
+\refstepcounter{table}\label{tab:operacionalizacion}
+\tituloTabla{\thetable}{Operacionalización del espesor del afirmado y del deterioro superficial}
+\footnotesize
+\iniciotablaHorizontal
+\renewcommand{\arraystretch}{1.25}
+\noindent\begin{tabularx}{\linewidth}{|
+  >{\raggedright\arraybackslash}p{2.5cm}|
+  >{\raggedright\arraybackslash}p{3.4cm}|
+  >{\raggedright\arraybackslash}p{2.4cm}|
+  >{\raggedright\arraybackslash}X|
+  >{\raggedright\arraybackslash}p{3.7cm}|
+  >{\raggedright\arraybackslash}p{2.1cm}|}
+\hline
+\textbf{Variable}&\textbf{Definición operacional}&\textbf{Dimensión}&\textbf{Indicador}&\textbf{Fuente e instrumento}&\textbf{Escala}\\\hline
+Espesor de la capa de afirmado&
+Promedio de las lecturas del espesor existente asignadas por progresiva a la sección de 500~m.&
+Sin dimensiones&
+\celdaIndicadores{\item Espesor medio de la sección (m).}&
+Informe de Diseño de Pavimento. Ficha de extracción de espesores.&
+Razón\\\hline
+\multirow{4}{2.5cm}{\raggedright Deterioro superficial de la vía}&
+\multirow{4}{3.4cm}{\raggedright Calificación de condición por sección y registros de tipología, extensión y severidad por falla.}&
+Medida global&
+\celdaIndicadores{\item Calificación de condición de la superficie de rodadura (puntos).}&
+Inventario de Condición Vial (ICV), ficha 1.E. Ficha de verificación de la calificación.&
+Puntuación normativa\\\cline{3-6}
+&&Tipología&
+\celdaIndicadores{\item Presencia o ausencia de cada tipo de falla.}&
+ICV, fichas 1.D y 1.E. Ficha de registro de deterioros.&
+Nominal dicotómica\\\cline{3-6}
+&&Extensión&
+\celdaIndicadores{\item Área o proporción afectada, según la falla.\item Número de baches por sección.\item Clase de extensión, si se usa la clasificación del MTC.}&
+ICV, fichas 1.D y 1.E. Ficha de registro de deterioros.&
+Razón u ordinal, según el indicador\\\cline{3-6}
+&&Severidad&
+\celdaIndicadores{\item Grado de afectación por tipo de falla según el MTC.}&
+ICV, fichas 1.D y 1.E. Ficha de registro de deterioros.&
+Ordinal\\\hline
+\end{tabularx}
+\fuenteTabla{Elaboración propia}
+\paginaHorizontalCentro
+\endgroup
+\end{landscape}
+
+\tituloPlan{Metodología}
+\subtituloPlan{Material}
+Se utilizarán el Informe de Diseño de Pavimento (pp. 3–4), que consigna 46 mediciones puntuales del espesor existente, y el Inventario de Condición Vial (ICV) del 25 de febrero de 2023. Del primero se extraerán la progresiva, el lado y el espesor. De las fichas 1.D y 1.E del ICV se obtendrán los registros de tipo, extensión, gravedad y calificación de condición. La verificación de esta calificación seguirá el numeral 4.3 del Manual de Carreteras: Mantenimiento o Conservación Vial (Ministerio de Transportes y Comunicaciones [MTC], 2014a).
+
+\subtituloPlan{Población}
+La población estará constituida por las 22 secciones completas de 500 m del camino vecinal Limabamba-Challhuayacu, Amazonas, entre las progresivas 00+000 y 11+000. La sección vial será la unidad de análisis. Los 42 m entre 11+000 y 11+042 se documentarán como remanente del recorrido. El análisis se delimitará a las secciones completas según la longitud de evaluación del MTC (2014a).
+
+\subtituloPlan{Muestra}
+Se prevé cobertura censal de las 22 secciones completas. Para cada contraste se incluirán las secciones con espesor asignable y registros verificables del indicador correspondiente. Se documentarán las discrepancias y exclusiones, así como el número efectivo de observaciones por análisis.
+
+\subtituloPlan{Técnicas e instrumentos de recolección de datos}
+Se aplicará análisis documental mediante fichas de extracción de espesores, registro de deterioros y verificación de la calificación de condición. Una matriz por sección conservará la progresiva, el número de mediciones, el espesor representativo, las fallas por tipo, su extensión y gravedad, y la calificación original y recalculada. Se utilizarán los criterios y puntajes de las tablas 4-1 a 4-7 del MTC (2014a).
+
+\subtituloPlan{Procedimientos}
+Se convertirán las progresivas a metros y se asignará cada medición a un intervalo cerrado al inicio y abierto al final. Se conservará el lado de medición. El promedio de las lecturas disponibles representará el espesor de la sección y se examinará la sensibilidad a la regla de asignación y agregación.
+
+Se cotejarán los registros del ICV y se verificarán unidades, anchos, duplicados y correspondencia de progresivas. Las tablas 4-4 y 4-5 del MTC (2014a) establecen la siguiente expresión para recalcular la calificación de cada sección.
+\[
+  \mathrm{CC}_{i}=500-\sum_{j=1}^{k_i}P_{ij},
+\]
+donde \(\mathrm{CC}_{i}\) es la calificación de condición en puntos de la sección \(i\), \(k_i\) es el número de tipos de falla con puntaje asignado y \(P_{ij}\) es el puntaje normativo del tipo \(j\) en esa sección.
+
+Se registrarán las diferencias entre el valor original y el recalculado, con su justificación y ubicación documental.
+
+\subtituloPlan{Diseño de contrastación}
+La investigación será aplicada, de enfoque cuantitativo, alcance correlacional y diseño no experimental, transversal y retrospectivo. En 2026 se analizarán retrospectivamente los registros de espesor y deterioro correspondientes a una misma sección del diagnóstico vial. La interpretación se circunscribirá a las asociaciones observadas en el camino estudiado (Hernández Sampieri et al., 2014).
+
+\subtituloPlan{Procesamiento y análisis de datos}
+El análisis se realizará en R. Se describirán el espesor y la calificación por sección mediante medidas de tendencia central, dispersión y gráficos por progresiva. El contraste general estimará la asociación monotónica mediante el coeficiente de Spearman entre el espesor y la calificación auditada. Un coeficiente positivo indicará que mayores espesores se asocian con mejor condición superficial (MTC, 2014a).
+
+Para tipología se evaluará la presencia o ausencia de cada falla con variación suficiente mediante regresión logística binaria, si la frecuencia de ocurrencia lo permite. La extensión se examinará por tipo mediante correlación por rangos con magnitudes comparables, como proporción de área afectada o conteo de baches. Para severidad se describirá la distribución por grado y se evaluará una asociación ordinal por tipo si los registros permiten representar la gravedad por sección mediante un criterio técnicamente justificado (MTC, 2014a).
+
+Se examinarán los empates, la escasez de registros por categoría y la dependencia entre secciones contiguas antes de realizar inferencias (Clifford et al., 1989). Cuando la estructura de los datos permita contrastes válidos, se empleará un nivel de significancia de 0,05 y se considerará la multiplicidad por tipo de falla. En los demás casos se informará la distribución observada y la asociación estimable.
+
+\subtituloPlan{Consideraciones éticas}
+Se gestionará el acceso a los registros de uso restringido y se omitirán los datos personales ajenos al análisis. Los archivos originales se conservarán íntegros. Las transcripciones, correcciones y exclusiones se registrarán en una bitácora, junto con los criterios aplicados y las fuentes de cada dato (ALLEA, 2023).
+
+
+\tituloPlan{Referencias}
+\begingroup\RaggedRight\interlinepenalty=10000
+\iniciarReferencias
+\referencia{Aguilar Julca, E. L. (2023). \emph{Evaluación del inventario de condición vial, y su relación de intervención del camino vecinal CA-838 Emp. PE-3NC Carhuacruz – Rejopampa, Cutervo} [Tesis de pregrado, Universidad Católica Sedes Sapientiae]. Repositorio Institucional UCSS. \url{https://hdl.handle.net/20.500.14095/2228}}
+\referencia{ALLEA. (2023). \emph{The European code of conduct for research integrity} (ed. rev.). \url{https://doi.org/10.26356/ECOC}}
+\referencia{Banco Mundial. (2010). \emph{Peru rural road program: Bringing access to the rural poor}. \url{https://documents1.worldbank.org/curated/en/473581468145191440/pdf/916830BRI0Box30ram0401101000Public0.pdf}}
+\referencia{Callata Vilca, J. L. (2024). \emph{Estudio comparativo del estado superficial de vías no pavimentadas aplicando las metodologías de MTC, MOP y URCI para el mantenimiento vial de la ruta PU 905 (Callejón - Ramis), Taraco, 2023} [Tesis de pregrado, Universidad Nacional del Altiplano]. Repositorio Institucional UNAP. \url{https://hdl.handle.net/20.500.14082/22356}}
+\referencia{Clifford, P., Richardson, S., \& Hémon, D. (1989). Assessing the significance of the correlation between two spatial processes. \emph{Biometrics, 45}(1), 123–134. \url{https://doi.org/10.2307/2532039}}
+\referencia{El Tawati, A., \& El Naggar, M. H. (2022). Construction, instrumentation and field performance of geogrid-reinforced unpaved roads. \emph{Proceedings of the Institution of Civil Engineers - Ground Improvement, 175}(3), 196–208. \url{https://doi.org/10.1680/jgrim.20.00010}}
+\referencia{Facundo Román, H. H., \& Flores Calderon, B. A. (2023). \emph{Influencia de granulometría y plasticidad en la vida útil de las carreteras de bajo volumen de tránsito a nivel de afirmado en la provincia de Jaén} [Tesis de pregrado, Universidad Nacional de Jaén]. Repositorio Institucional UNJ. \url{https://hdl.handle.net/20.500.14689/600}}
+\referencia{Frankel, J., \& Tahmoorian, F. (2025). Improving gravel material specifications for unpaved roads: Australian case study. \emph{International Journal of Pavement Research and Technology, 18}, 444–457. \url{https://doi.org/10.1007/s42947-023-00355-2}}
+\referencia{Hernández Sampieri, R., Fernández Collado, C., \& Baptista Lucio, M. del P. (2014). \emph{Metodología de la investigación} (6.ª ed.). McGraw-Hill Education.}
+\referencia{Kironde, F. (2023). \emph{Investigating the effect of horizontal road curvature on gravel loss of unpaved roads in Uganda (a case of Wakiso district)} [Trabajo de grado, Makerere University]. Makerere University Dissertations Repository. \url{https://hdl.handle.net/20.500.12281/17022}}
+\referencia{Ministerio de Transportes y Comunicaciones. (2014a). \emph{Manual de carreteras: Mantenimiento o conservación vial} (versión con la parte IV incorporada en 2016). \manualConservacionURL}
+\referencia{Ministerio de Transportes y Comunicaciones. (2014b). \emph{Manual de carreteras: Suelos, geología, geotecnia y pavimentos. Sección suelos y pavimentos}. \manualPavimentosURL}
+\referencia{Mundaca Dávila, M. (2024). \emph{Determinación de la condición superficial del camino vecinal Km 0+0000 al km11+450.00 y su influencia en el mantenimiento vial} [Tesis de pregrado, Universidad Católica Sedes Sapientiae]. Repositorio Institucional UCSS. \url{https://hdl.handle.net/20.500.14095/2831}}
+\referencia{Pagadala, M. (2024). \emph{Assessment of improvement in unpaved roadway performance using 3D geogrids under cyclic loading} [Tesis de maestría, Embry-Riddle Aeronautical University]. Scholarly Commons. \url{https://commons.erau.edu/edt/824/}}
+\referencia{Rojas Alvarado, L., \& Valentin Guillermo, G. G. (2022). \emph{Evaluación de la condición superficial del afirmado del Camino Vecinal Cancejos (km. 0+000) – Dv. Micho (km. 6+300), del Distrito de Chinchao, Provincia y Departamento de Huánuco – 2022} [Tesis de pregrado, Universidad Nacional Hermilio Valdizán]. Repositorio Institucional UNHEVAL. \url{https://hdl.handle.net/20.500.13080/7948}}
+\referencia{Valencia-Gallego, V., \& Montoya, L.-J. (2024). Erosion mechanisms in unpaved roads: Effects of slope, rainfall, and soil type. \emph{Air, Soil and Water Research, 17}. \url{https://doi.org/10.1177/11786221241272396}}
+\endgroup
+
+\end{document}
